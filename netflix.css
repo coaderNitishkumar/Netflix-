@@ -1,0 +1,219 @@
+*{
+    padding:0;
+    margin:0;
+}
+    .main {
+    background-image: url("/image\ 1.png");
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+.main.box1 {
+    height: 80vh;
+    width: 100%;
+    opacity: 1.2;
+    position: absolute;
+    box-shadow: 5px solid black;
+    top: 0;
+    background-color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100vw;
+    height: 62px;
+    align-items: center;
+    margin: auto;
+}
+.logo{
+     
+margin-right: 100px;
+margin-top: 35px;
+}
+    .LANGUAGE{
+        background-size: absolute;
+        /* height: 35px;
+        width: 100px; */
+        /* margin: 15px; */
+        padding: 8px;
+        border-radius: 5px;
+        background-color:rgba(5, 3, 3, 0.804);
+        color: white;
+        justify-content: center;
+        align-items: flex-end;
+        /* margin-top: 30px;
+        text-decoration: none;
+        box-shadow: none; */
+    }
+
+
+a{
+    margin: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold; 
+    /* text-decoration-color:red; */
+    text-decoration: none;
+    color: white;
+    background-color: red;
+ margin-left: 800px;
+ margin-top: 40px;
+}
+.herom {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    position: relative;
+    text-align: center;
+    margin-right: 750px;
+
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: x-large;
+    font-weight: bold;
+    font-size: 25px;
+}
+h3{
+    font-size: x-large;
+}
+input{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 40px;
+    align-items: center;
+    margin-left: 150px;
+    background-color: rgba(5, 3, 3, 0.804);
+    color: white;
+    margin-top: 40px;
+    font-size: large;
+
+}
+.a1{
+    margin: 15px;
+    padding: 8px;
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold; 
+    /* text-decoration-color:red; */
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin-bottom: 1000px;
+    margin-left: 480px;
+    font-size: x-large;
+
+
+
+  
+}
+ 
+.shop-section{
+    margin-top: 0px;
+    display: flex;
+flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #0f0f0f;
+}
+.box{
+    height: 280px;
+    /* border: 1px solid rgb(40, 40, 40); */
+    width: 12%;
+    background-color: solid rgb(40, 40, 40);
+    /* padding: 20px,0px,15px; */
+    /* margin-top:15px; */
+    border-radius: 12px;
+}
+.box-image{
+    height: 220px;
+    background-size: cover;
+    margin-top: 1rem;
+    /* margin-bottom: 1rem;  */
+    background-color: solid rgb(40, 40, 40);
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: #f11313ea;
+}
+ 
+ footer{ 
+    margin-top: 1px;
+    /* margin-bottom: 35px; */
+}
+.foot-panel{
+    background-color:  rgb(5, 1, 1);
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.85rem;
+} 
+.foot-panel2{
+    background-color: rgb(5, 1, 1);
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddd;
+}
+h4{
+    font-size: 25px;
+    margin-bottom: 100px;
+    
+}
+.a2{
+    margin: 15px;
+    padding: 8px;
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold; 
+    /* text-decoration-color:red; */
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin-bottom: 1000px;
+    
+
+    font-size: x-large;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 40px;
+    align-items: center;
+    margin-left: 150px;
+    background-color: rgba(5, 3, 3, 0.804);
+    color: white;
+     margin-top: 100px;
+     /* margin-right: 1000px; */
+    font-size: large;
+   /* margin-left: 500px; */
+
+}
+ 

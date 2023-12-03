@@ -1,0 +1,93 @@
+<title>user register</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: rgb(243, 43, 43);
+    background-image: url('assets/img/hero-bg.png');
+    width: 100%;
+  height: 100vh;
+  /* background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url("../img/hero-bg.png") top center; */
+  background-size: cover;
+  position: relative;
+  margin-bottom: -90px;
+background-repeat: no-repeat;
+        text-align: center;
+    }
+    
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        /* background-color: #fff; */
+        border-radius: 5px;
+        /* box-shadow: 3px 3px 10px gold; */
+        
+    }
+    
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 3px solid pink;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+    
+    input[type="submit"] {
+        background-color:red;
+        color:black;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .otp-container {
+        display: none;
+    }
+
+    #otp {
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h2>Login</h2>
+    <form id="login-form">
+        <input type="text" placeholder="Username" name="username" required><br>
+        <input type="password" placeholder="Password" name="password" required><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div class="otp-container" id="otp-container">
+        <h2>Enter OTP</h2>
+        <form id="otp-form">
+            <input type="text" placeholder="OTP" name="otp" required><br>
+            <input type="submit" value="Verify OTP">
+        </form>
+    </div>
+</div>
+
+<script>
+    document.getElementById("login-form").addEventListener("submit", function(e) {
+        e.preventDefault();
+        // Here, you can generate and send the OTP to the user's email or phone.
+        // You'll also need to display the OTP form and handle OTP verification.
+        document.getElementById("otp-container").style.display = "block";
+    });
+
+    document.getElementById("otp-form").addEventListener("submit", function(e) {
+        e.preventDefault();
+        // Here, you can add logic to verify the entered OTP.
+        // If OTP is valid, proceed with login.
+        // Otherwise, display an error message.
+    });
+</script>
+</body>
+</html>
